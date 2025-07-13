@@ -44,3 +44,23 @@ terraform.rc
 
 # Ignore backup files
 *.backup
+
+# Kubernetes
+# Ignore kubeconfig files that might contain sensitive data
+kubeconfig
+*.kubeconfig
+.kube/
+
+# Helm
+.helm/
+charts/*/charts/
+charts/*/requirements.lock
+
+# Ignore local environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore temporary files
+*.tmp
+*.temp
