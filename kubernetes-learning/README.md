@@ -11,7 +11,9 @@ This directory contains Kubernetes configurations and learning materials.
 
 ## Quick Start
 
-1. Ensure you have a Kubernetes cluster running (minikube, kind, or cloud cluster)
+1. Start your Kubernetes cluster:
+   - For Minikube: `minikube start`
+   - For kind or cloud clusters, ensure they are running
 2. Verify kubectl is configured: `kubectl cluster-info`
 3. Apply configurations: `kubectl apply -f <filename>.yaml`
 4. Check resources: `kubectl get pods,services,deployments`
